@@ -28,8 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/Nutrition-App/Nutrition/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[/workspace/Nutrition-App/Nutrition/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspace/Nutrition-App/Nutrition/Shared/SurveyPrompt.razor]
