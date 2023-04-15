@@ -1,4 +1,7 @@
 ﻿@page "/Search"
+@using Nutrition.Model;
+@using Nutrition.Client;
+@inject NutritionClient NutritionClient;
 
 <PageTitle>NutritionApp</PageTitle>
 
@@ -13,13 +16,35 @@
                                 <!-- Email address input-->
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control form-control-lg" id="Search-box" type="text" placeholder="Search Foods..." data-sb-validations="required,text" />
+                                        <input class="form-control form-control-lg" id="Search-box" type="text" @bind='detail' placeholder="Search Foods..."/>
                                         
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" >Submit</button></div>
+                                    <div class="col-auto"><button class="btn btn-primary" @onclick="search">Submit</button></div>
                                 </div>
                         
-                
+                @if (nutriResponse != null) {
+                <h3>Nutrition Information of @detail</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Calories</th>
+                                <th>Glycemic Index</th>
+                                <th>TotalWeight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          
+                                <tr>
+                                    <td>@nutriResponse.calories</td>
+                            <td>@nutriResponse.glycemicIndex</td>
+                            <td>@nutriResponse.totalWeight</td>
+                                </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            } 
 
          
               
@@ -29,4 +54,22 @@
     </div>
     
 </header>
+
+@code {
+
+    private NutritionDetails? nutriResponse = null;
+    protected override async Task OnInitializedAsync(){
+        nutriResponse = await NutritionClient.GetNutri(null);
+        detail="1 large apple";
+    }
+
+    private string? detail;
+
+    protected async Task search(){
+        if(detail!=null){
+            nutriResponse = await NutritionClient.GetNutri(detail);
+        }
+    }
+
+}
 

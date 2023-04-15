@@ -1,7 +1,7 @@
 using System.Net.Http.Json;
-using NutriApp.Model;
+using Nutrition.Model;
 
-namespace NutriApp.Clients;
+namespace Nutrition.Client;
 public class NutritionClient{
 
     private readonly HttpClient _client;
@@ -10,7 +10,7 @@ public class NutritionClient{
     public NutritionClient(HttpClient Client){
         _client = Client;
         _client.DefaultRequestHeaders.Add("X-RapidAPI-Key", "22a1959633mshead70d5aae391f6p1402a8jsnaaad21c933b1");
-         _client.DefaultRequestHeaders.Add("X-RapidAPI-Host", "edamam-edamam-nutrition-analysis.p.rapidapi.com");
+    
     }
 
     

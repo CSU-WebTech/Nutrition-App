@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4OKWpMn63kuSVg2+2yfdN3KRokZOqXPSCAd6zZnQGPc=",
+  "Hash": "dqRIDUAR4k/SSZ1VCX530+HpdJ5bHvojEyxpnkJinao=",
   "Source": "Nutrition",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/AuthenticationService.js"
+    },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "Nutrition",
@@ -184,7 +201,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.0/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -201,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -218,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -235,7 +269,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.web/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.web/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -269,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.metadata/7.0.0/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.metadata/7.0.5/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -459,6 +510,23 @@
       "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.http/7.0.0/lib/net7.0/Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -507,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.0/lib/net7.0/Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.1/lib/net7.0/Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
@@ -541,7 +609,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.jsinterop/7.0.0/lib/net7.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.jsinterop/7.0.5/lib/net7.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -3451,6 +3519,23 @@
       "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.0/runtimes/browser-wasm/lib/net7.0/WindowsBase.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/++0SVznV.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/++nLNzmK.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -3655,6 +3740,23 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Net.Quic.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/2CsT3Mrw.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/2zZPlWcw.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -3740,6 +3842,23 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.Xml.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/4J0oYaca.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/4reReuXS.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -3806,6 +3925,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Text.Encoding.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/6wnTN0dW.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/6WXr+2K+.gz",
@@ -3993,6 +4129,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Collections.Specialized.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/aaJlHYzT.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/AaLLH9Z+.gz",
@@ -4299,23 +4452,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.InteropServices.dll"
-    },
-    {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/ELGTTHVU.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/EQwTRK7w.gz",
@@ -4641,23 +4777,6 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Collections.Concurrent.dll"
     },
     {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/hasU15AI.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
-    },
-    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/hdZY30+b.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -4862,6 +4981,23 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Loader.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/JeBtf3Jq.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/JLUdE8nc.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -4928,23 +5064,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll"
-    },
-    {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/k5kQokYl.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/K9ptOHRF.gz",
@@ -5185,6 +5304,23 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Linq.Parallel.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/m4WweJkK.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/m5P02Ho0.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -5251,23 +5387,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat"
-    },
-    {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/mcLUSJWZ.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/mdH07PJ6.gz",
@@ -5780,23 +5899,6 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll"
     },
     {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/PL6il4FQ.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/PRjAUEHN.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -6152,23 +6254,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Net.Http.dll"
-    },
-    {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/TE5ycmFN.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/Tf+5IwK+.gz",
@@ -6562,6 +6647,23 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Buffers.dll"
     },
     {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/WNQlFfOz.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/WNRqMUkh.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -6594,6 +6696,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/wOGBEeWg.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/WrU8i3Ld.gz",
@@ -6647,23 +6766,6 @@
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XDocument.dll"
     },
     {
-      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/x4gv29z5.gz",
-      "SourceId": "Nutrition",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/XDfQLBe+.gz",
       "SourceId": "Nutrition",
       "SourceType": "Computed",
@@ -6696,6 +6798,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/System.Linq.dll"
+    },
+    {
+      "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/xV7dP+w3.gz",
+      "SourceId": "Nutrition",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/y6QHqQQ3.gz",

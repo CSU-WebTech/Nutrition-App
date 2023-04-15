@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace NutriApp.Model
+namespace Nutrition.Model
 {
     public class NutritionDetails
     {
@@ -10,7 +10,7 @@ namespace NutriApp.Model
         public int glycemicIndex { get; set; }
 
         [JsonPropertyName("totalWeight")]
-        public int totalWeight { get; set; }
+        public double totalWeight { get; set; }
     }
 
 }
