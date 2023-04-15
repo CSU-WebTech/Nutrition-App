@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/Nutrition.styles.css"
     },
     {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/Home.css",
+      "PackagePath": "staticwebassets/css/Home.css"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/Post-Template.css",
+      "PackagePath": "staticwebassets/css/Post-Template.css"
+    },
+    {
       "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
@@ -23,6 +31,10 @@
     {
       "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/nicepage.css",
+      "PackagePath": "staticwebassets/css/nicepage.css"
     },
     {
       "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/css/open-iconic/FONT-LICENSE",
@@ -69,8 +81,128 @@
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/0fd3416c.jpeg",
+      "PackagePath": "staticwebassets/images/0fd3416c.jpeg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/1.jpg",
+      "PackagePath": "staticwebassets/images/1.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/2.jpg",
+      "PackagePath": "staticwebassets/images/2.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/2088082-8f74b52b.png",
+      "PackagePath": "staticwebassets/images/2088082-8f74b52b.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/2088082.png",
+      "PackagePath": "staticwebassets/images/2088082.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/2224088-fde9f035.png",
+      "PackagePath": "staticwebassets/images/2224088-fde9f035.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/2224088.png",
+      "PackagePath": "staticwebassets/images/2224088.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/3.jpg",
+      "PackagePath": "staticwebassets/images/3.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/3050587-c0e24d5b.png",
+      "PackagePath": "staticwebassets/images/3050587-c0e24d5b.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/3050587.png",
+      "PackagePath": "staticwebassets/images/3050587.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/481637-533a50d2.png",
+      "PackagePath": "staticwebassets/images/481637-533a50d2.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/481637.png",
+      "PackagePath": "staticwebassets/images/481637.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/5.jpg",
+      "PackagePath": "staticwebassets/images/5.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/5543191-af3d6bb5.png",
+      "PackagePath": "staticwebassets/images/5543191-af3d6bb5.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/5543191.png",
+      "PackagePath": "staticwebassets/images/5543191.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/688553-fd578e43.png",
+      "PackagePath": "staticwebassets/images/688553-fd578e43.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/688553.png",
+      "PackagePath": "staticwebassets/images/688553.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/68f64b9d.jpeg",
+      "PackagePath": "staticwebassets/images/68f64b9d.jpeg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/8.jpg",
+      "PackagePath": "staticwebassets/images/8.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/83.jpg",
+      "PackagePath": "staticwebassets/images/83.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/8ad73f3c.jpeg",
+      "PackagePath": "staticwebassets/images/8ad73f3c.jpeg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/default-image.jpg",
+      "PackagePath": "staticwebassets/images/default-image.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/default-logo.png",
+      "PackagePath": "staticwebassets/images/default-logo.png"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/gffg.jpg",
+      "PackagePath": "staticwebassets/images/gffg.jpg"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/images/pexels-photo-5965948.jpeg",
+      "PackagePath": "staticwebassets/images/pexels-photo-5965948.jpeg"
+    },
+    {
       "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/intlTelInput/intlTelInput.css",
+      "PackagePath": "staticwebassets/intlTelInput/intlTelInput.css"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/intlTelInput/intlTelInput.min.js",
+      "PackagePath": "staticwebassets/intlTelInput/intlTelInput.min.js"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/intlTelInput/utils.js",
+      "PackagePath": "staticwebassets/intlTelInput/utils.js"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/js/jquery.js",
+      "PackagePath": "staticwebassets/js/jquery.js"
+    },
+    {
+      "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/js/nicepage.js",
+      "PackagePath": "staticwebassets/js/nicepage.js"
     },
     {
       "Id": "/workspace/Nutrition-App/Nutrition/wwwroot/sample-data/weather.json",
