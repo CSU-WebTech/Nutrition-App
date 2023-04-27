@@ -838,3 +838,11 @@
 /workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/xV7dP+w3.gz
 /workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/m4WweJkK.gz
 /workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/JeBtf3Jq.gz
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/ChartJs.Blazor.dll
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Newtonsoft.Json.dll
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/ChartJs.Blazor.dll.gz
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/ChartJs.Blazor.dll
+/workspace/Nutrition-App/Nutrition/bin/Debug/net7.0/Newtonsoft.Json.dll
+/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/0BIoS8Ph.gz
+/workspace/Nutrition-App/Nutrition/obj/Debug/net7.0/build-gz/sD+OxpK5.gz

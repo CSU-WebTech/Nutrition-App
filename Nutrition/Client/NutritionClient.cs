@@ -17,11 +17,8 @@ public class NutritionClient{
 
     public async Task<NutritionDetails> GetNutri(string a){
 
-        string url = "https://edamam-edamam-nutrition-analysis.p.rapidapi.com/api/nutrition-data?ingr=" + "1%20large%20apple";
-        if(a != null){
-            url = "https://edamam-edamam-nutrition-analysis.p.rapidapi.com/api/nutrition-data?ingr="+ a;
-        }        
-        return await _client.GetFromJsonAsync<NutritionDetails>(url);
+        string url = "https://edamam-edamam-nutrition-analysis.p.rapidapi.com/api/nutrition-data?ingr="+ a;
+         return await _client.GetFromJsonAsync<NutritionDetails>(url);
     }
 
 }

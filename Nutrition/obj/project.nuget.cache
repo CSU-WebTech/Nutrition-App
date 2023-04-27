@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vDR4Es/TRFnqmy+lYbJ9hkIK5D6hMETKZpmfRHXmUGRPCOtxkhRRpb7X1YVmjTAfxFkeUNFxlO8FNkAMRl4aPA==",
+  "dgSpecHash": "2KwEBBKTUtTBLaFiPs/eSCCahU6uQrg7UMwwUzup3V6FO2vDuPMFjcYrrxWy2q63E0uAKCzR/TRHTqmf3ll7mw==",
   "success": true,
   "projectFilePath": "/workspace/Nutrition-App/Nutrition/Nutrition.csproj",
   "expectedPackageFiles": [
+    "/home/gitpod/.nuget/packages/chartjs.blazor/1.1.0/chartjs.blazor.1.1.0.nupkg.sha512",
+    "/home/gitpod/.nuget/packages/chartjs.blazor.fork/2.0.2/chartjs.blazor.fork.2.0.2.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.5/microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.5/microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",
@@ -14,6 +16,7 @@
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/microsoft.aspnetcore.components.webassembly.authentication.7.0.5.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/7.0.0/microsoft.aspnetcore.components.webassembly.devserver.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.metadata/7.0.5/microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "/home/gitpod/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
@@ -31,6 +34,7 @@
     "/home/gitpod/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.jsinterop.webassembly/7.0.0/microsoft.jsinterop.webassembly.7.0.0.nupkg.sha512",
+    "/home/gitpod/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/gitpod/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",

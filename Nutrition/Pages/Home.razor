@@ -1,5 +1,5 @@
 ﻿@page "/"
-
+@inject NavigationManager navigationManager
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en">
 <meta data-intl-tel-input-cdn-path="intlTelInput/"><head>
@@ -19,7 +19,15 @@
        <section class="u-clearfix u-height-50vw-sm u-section-3" id="carousel_6bff">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h2 class="u-align-center u-text u-text-palette-2-base u-text-1">Welcome to Nutrition App</h2>
-        <p class="u-align-center u-text u-text-2">Organic food is food produced by methods that comply with the standards of organic farming.</p>
+         <h4 class="u-align-center u-text u-text-4">Nutrition Tracking Application</h4>     
+        <!-- Food input-->
+        <div class="row">
+            <div class="col">
+                <input class="form-control form-control-lg" id="Search-box" type="text" @bind='detail' placeholder="Enter any Food and Quantity... eg. 1 large apple"/>
+            </div>
+            <div class="col-auto"><button class="btn btn-primary" @onclick="search">Submit</button></div>
+        </div>
+       
         <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
           <div class="u-gallery-inner u-gallery-inner-1">
             <div class="u-effect-fade u-gallery-item">
@@ -126,5 +134,16 @@
         </div>
       </div>
     </section>
-   
-</body></html>
+  </body>
+</html>
+
+@code {
+    private string? detail;
+
+    protected async Task search(){
+        if(detail!=null){
+          navigationManager.NavigateTo("/search/"+detail.ToString());
+        }
+    }
+
+}
