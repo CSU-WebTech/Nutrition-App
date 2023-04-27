@@ -1,16 +1,18 @@
 ﻿@page "/search/{detail}"
 @using Nutrition.Model;
 @using Nutrition.Client;
+
 @using ChartJs.Blazor.PieChart;
 
 @inject NutritionClient NutritionClient;
+
 
 <header class="masthead">
     <div class="container position-relative">
         <div class="row justify-content-center">
             <div class="col-xl-6">
                 <div class="text-center text-Black">
-                             <h3>Nutrition Information of:</h3>
+                    <h3>Nutrition Information of:</h3>
                     <h4>@detail</h4>
                     @if (nutriResponse != null) {
                         <div>
@@ -19,46 +21,57 @@
                                 <Chart Config="_config"></Chart>
                             </div>
                             <br/><br/>
-                <div class="table-responsive">
-                    <table class="table table-striped table-bordered">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th>Calories</th>
-                                <th>Glycemic Index</th>
-                                <th>TotalWeight</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                          
-                                <tr>
-                                    <td>@nutriResponse.calories</td>
-                            <td>@nutriResponse.glycemicIndex</td>
-                            <td>@nutriResponse.totalWeight</td>
-                                </tr>
-                            
-                        </tbody>
-                    </table>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Calories</th>
+                                            <th>TotalWeight</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>@nutriResponse.calories</td>
+                                            <td>@nutriResponse.totalWeight</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br/><br/>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Iron</th>
+                                            <th>Magnesium</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>@nutriResponse.thetotalNutrients.theFe.theFeQuan</td>
+                                            <td>@nutriResponse.totalWeight</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    }
                 </div>
-             </div>
-            } 
-
-         
-              
-       </div>
             </div>
         </div>
     </div>
-    
 </header>
+
 
 @code {
     [Parameter]
     public string? detail { get; set; }
     private NutritionDetails? nutriResponse = null;
 
-     private PieConfig _config;
+    private PieConfig _config;
     protected override async Task OnInitializedAsync(){
         nutriResponse = await NutritionClient.GetNutri(detail);
+
         _config = new PieConfig
         {
             Options = new PieOptions
@@ -68,16 +81,16 @@
                 {
                     Display = true,
                     Text = "Nutrition Chart"
-    }
-}
-};
+                }
+            }
+        };
 
-        foreach (string color in new[] { "Calories", "TotalWeigth", "glycemicIndex" })
+        foreach (string color in new[] { "Fat", "Protein", "Carbohydrates" })
         {
             _config.Data.Labels.Add(color);
         }
 
-        PieDataset<double> dataset = new PieDataset<double>(new[] { nutriResponse.calories,  nutriResponse.totalWeight, nutriResponse.glycemicIndex })
+        PieDataset<double> dataset = new PieDataset<double>(new[] { nutriResponse.thetotalNutrients.theFat.theFatQuan,  nutriResponse.thetotalNutrients.theProcnt.theProQuan, nutriResponse.thetotalNutrients.theChocdf.theChocdfQuan })
         {
              BackgroundColor = new[]
                 {
