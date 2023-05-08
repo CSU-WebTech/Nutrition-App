@@ -30,6 +30,15 @@ namespace Nutrition.Model
         [JsonPropertyName("FE")]
         public fe theFe { get; set; }
 
+        [JsonPropertyName("MG")]
+        public mg theMg { get; set; }
+
+         [JsonPropertyName("VITB12")]
+        public vitb12 theVitb12 { get; set; }
+
+         [JsonPropertyName("VITD")]
+        public vitd theVitd { get; set; }
+
     }
 
     public class fat
@@ -55,5 +64,24 @@ namespace Nutrition.Model
         [JsonPropertyName("quantity")]
         public double theFeQuan { get; set; }
     }
+
+    public class mg
+    {
+        [JsonPropertyName("quantity")]
+        public double theMgQuan { get; set; }
+    }
+
+    public class vitb12
+    {
+        [JsonPropertyName("quantity")]
+        public double theVitb12Quan { get; set; }
+    }
+
+    public class vitd
+    {
+        [JsonPropertyName("quantity")]
+        public double theVitdQuan { get; set; }
+    }
+
 
 }

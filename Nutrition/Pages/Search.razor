@@ -38,6 +38,26 @@
                                 </table>
                             </div>
                             <br/><br/>
+                    
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Vitamin B12</th>
+                                            <th>Vitamin D</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <td>@nutriResponse.thetotalNutrients.theVitb12.theVitb12Quan</td>
+                                        <td>@nutriResponse.thetotalNutrients.theVitd.theVitdQuan</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br/><br/>
+
+
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered">
                                     <thead class="thead-dark">
@@ -49,7 +69,8 @@
                                     <tbody>
                                         <tr>
                                             <td>@nutriResponse.thetotalNutrients.theFe.theFeQuan</td>
-                                            <td>@nutriResponse.totalWeight</td>
+                                            <td>@nutriResponse.thetotalNutrients.theMg.theMgQuan</td>
+
                                         </tr>
                                     </tbody>
                                 </table>
