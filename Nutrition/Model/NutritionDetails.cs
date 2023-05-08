@@ -39,6 +39,17 @@ namespace Nutrition.Model
          [JsonPropertyName("VITD")]
         public vitd theVitd { get; set; }
 
+         [JsonPropertyName("SUGAR")]
+        public sugar theSugar { get; set; }
+
+        [JsonPropertyName("ZN")]
+        public zn theZn { get; set; }
+
+        [JsonPropertyName("CA")]
+        public ca theCa { get; set; }
+
+        
+
     }
 
     public class fat
@@ -83,5 +94,20 @@ namespace Nutrition.Model
         public double theVitdQuan { get; set; }
     }
 
+    public class sugar
+    {
+        [JsonPropertyName("quantity")]
+        public double theSugarQuan { get; set; }
+    }
+public class zn
+    {
+        [JsonPropertyName("quantity")]
+        public double theZnQuan { get; set; }
+    }
 
+public class ca
+    {
+        [JsonPropertyName("quantity")]
+        public double theCaQuan { get; set; }
+    }
 }
